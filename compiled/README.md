@@ -12,6 +12,7 @@ The nine results of [BACQM-NRS³](https://naype888-cloud.github.io/BACQM-NRS3/) 
 | [`nrs3-tritoro`](https://github.com/naype888-cloud/nrs3-tritoro) | three closed axes: dark share, boundary, saturation, Dirac, events, the fibre as fourth axis |
 | [`nrs3-hopf`](https://github.com/naype888-cloud/nrs3-hopf) | the box of four axes, a closed fibre over the open cube |
 | [`nrs3-dark`](https://github.com/naype888-cloud/nrs3-dark) | `1 − Ω_b`, the interior of the volumetric quantum |
+| [`nrs3-hidrogeno`](https://github.com/naype888-cloud/nrs3-hidrogeno) | the hydrogen atom on the integer sites of the cube, Hardy's inequality, the Bloch ball at `d = 2`; builds on the Physlib lattice models |
 | [`nrs3-uncertainty-cone`](https://github.com/naype888-cloud/nrs3-uncertainty-cone) | the Gram matrix of a conjugate pair is a Minkowski four-vector |
 
 ## Variations
