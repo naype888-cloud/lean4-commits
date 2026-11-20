@@ -46,7 +46,7 @@ La liste complète des pull requests, chemin par chemin, est dans [merged/](merg
 
 <div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/oscuro/plaque_lc_chaine.png"><img src="assets/claro/plaque_lc_chaine.png" alt="Énergies de la chaîne, commutateur avec la position et chaîne ouverte comme adjacence du graphe chemin" width="860"></picture></div>
 
-*Pas :* bords ouverts et position (#1689) → relation énergie–position (#1690, #1709) → les énergies sont tout le spectre (#1901) → la chaîne ouverte est le saut de `pathGraph` (#2096).  
+*Pas :* bords ouverts et position (#1689) → relation énergie–position (#1690, #1709) → les énergies sont tout le spectre (#1901) → la chaîne ouverte est le saut de `pathGraph` (#2096) → la chaîne est un cristal périodique fini (#2118).  
 *Lean :* `hasEigenvalue_hamiltonian_iff`, `inner_commutator_position`, `inner_openHamiltonian_eq_adjMatrix`.
 
 ### Chemin 3 : Le courant maximal et la saturation
@@ -119,7 +119,7 @@ La couche algébrique sur laquelle reposent les chemins (`PhyslibAlpha/Probabili
 | sl(2, ℂ) | la double couverture du groupe de Lorentz restreint |
 | Observables du cube | une paire par axe ; des axes différents commutent |
 
-**En attente de revue** : [PR 2102](https://github.com/leanprover-community/physlib/pull/2102) (le hamiltonien du cube ouvert est l’adjacence du graphe chemin sur chaque axe), [PR 1848](https://github.com/leanprover-community/physlib/pull/1848) et [PR 1849](https://github.com/leanprover-community/physlib/pull/1849) (applications de qubit diagonales de Pauli : cube et tétraèdre).
+**En attente de revue** : [PR 2102](https://github.com/leanprover-community/physlib/pull/2102) (le hamiltonien du cube ouvert est l’adjacence du graphe chemin sur chaque axe) et [PR 2122](https://github.com/leanprover-community/physlib/pull/2122) (le seuil de la chaîne à quatre sites est au moins 3/2 |a t|).
 
 ---
 

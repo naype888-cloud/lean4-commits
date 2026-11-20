@@ -1,6 +1,6 @@
 # Fusionnées dans Physlib — la liste complète
 
-Les 51 pull requests d’Eduardo Nava Hernández fusionnées dans [Physlib](https://github.com/leanprover-community/physlib), groupées par chemin. Les pas qui mènent au théorème clé de chaque chemin, avec son équation, sont dans la [page principale](../README.md).
+Les 52 pull requests d’Eduardo Nava Hernández fusionnées dans [Physlib](https://github.com/leanprover-community/physlib), groupées par chemin. Les pas qui mènent au théorème clé de chaque chemin, avec son équation, sont dans la [page principale](../README.md).
 
 [▶ Pull requests fusionnées](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud) · [ouvertes](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Aopen+author%3Anaype888-cloud) · [fork de travail](https://github.com/naype888-cloud/physlib)
 
@@ -27,6 +27,7 @@ Les 51 pull requests d’Eduardo Nava Hernández fusionnées dans [Physlib](http
 | [#1781](https://github.com/leanprover-community/physlib/pull/1781) | 2026-10-15 | chore(PhyslibAlpha): use lemma instead of theorem in the tight binding chain. |
 | [#1901](https://github.com/leanprover-community/physlib/pull/1901) | 2026-10-24 | feat(CondensedMatter): the energies of the tight binding chain are its whole spectrum |
 | [#2096](https://github.com/leanprover-community/physlib/pull/2096) | 2026-11-16 | feat(CondensedMatter): the open tight binding chain is the hopping of the path graph |
+| [#2118](https://github.com/leanprover-community/physlib/pull/2118) | 2026-11-20 | feat(PhyslibAlpha): the tight binding chain is a finite periodic crystal |
 
 ## 3 · Le courant maximal et la saturation
 
@@ -98,7 +99,7 @@ Les 51 pull requests d’Eduardo Nava Hernández fusionnées dans [Physlib](http
 ## En attente de revue
 
 - [PR 2102](https://github.com/leanprover-community/physlib/pull/2102) : le hamiltonien du cube ouvert est l’adjacence du graphe chemin sur chaque axe.
-- [PR 1848](https://github.com/leanprover-community/physlib/pull/1848), [PR 1849](https://github.com/leanprover-community/physlib/pull/1849) : applications de qubit diagonales de Pauli, positives (cube) et complètement positives (tétraèdre).
+- [PR 2122](https://github.com/leanprover-community/physlib/pull/2122) : le seuil de la chaîne à quatre sites est au moins 3/2 |a t|.
 
 Travail partagé : le cadre algébrique `ProbabilisticTheory` est celui de Tom Ole Diem ; le fichier `PhyslibAlpha/ProbabilisticTheory/CStarAlgebra/Uncertainty.lean` porte les deux noms.
 
