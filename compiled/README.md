@@ -39,6 +39,6 @@ Chaque dépôt compile seul, en Lean 4 sur Mathlib, certains sur Physlib, avec l
 |---|---|
 | [`YM-By-Perelmans-surgery-method`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method) | Yang–Mills par la méthode de chirurgie de Perelman : loi d’aire uniforme en volume, matrice de transfert et défaut quantique de la fibre |
 | [`Proper-Time-General-Relativity`](https://github.com/naype888-cloud/Proper-Time-General-Relativity) | Temps propre et relativité générale : courbure métrique et masse invariante à partir du défaut quantique de Robertson–Schrödinger |
-| [`Anti-Kurt-Godel-Theorem`](https://github.com/naype888-cloud/Anti-Kurt-Godel-Theorem) | Complétude mathématique constructive via Robertson–Fiedler–Niven–Gabor–Szegő |
+| [`nrs3-completude`](https://github.com/naype888-cloud/nrs3-completude) | Complétude mathématique constructive via Robertson–Fiedler–Niven–Gabor–Szegő |
 
 Retour à [lean4-commits](../README.md).
