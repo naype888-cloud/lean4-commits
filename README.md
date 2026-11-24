@@ -1,3 +1,5 @@
+<div lang="fr">
+
 <div align="center">
 
 # 1 · Lean 4 · Les commits
@@ -17,7 +19,7 @@
 
 > ### 🏛️ Le module maître : une équation clé par chemin
 >
-> Cinquante et une pull requests fusionnées dans [Physlib](https://github.com/leanprover-community/physlib), la bibliothèque de physique de la communauté Lean, forment huit chemins. Chacun mène à un théorème clé ; l’équation ci-dessous est recopiée de son énoncé Lean.
+> Cinquante-trois pull requests fusionnées dans [Physlib](https://github.com/leanprover-community/physlib), la bibliothèque de physique de la communauté Lean, forment huit chemins. Chacun mène à un théorème clé ; l’équation ci-dessous est recopiée de son énoncé Lean.
 >
 > <div align="center">
 > <picture><source media="(prefers-color-scheme: dark)" srcset="assets/oscuro/plaque_lc_maitresse.png"><img src="assets/claro/plaque_lc_maitresse.png" alt="Plaque maîtresse : les huit équations clés, de Robertson dans les états algébriques à la couverture SL(2, C) du groupe de Lorentz" width="860"></picture>
@@ -64,8 +66,8 @@ La liste complète des pull requests, chemin par chemin, est dans [merged/](merg
 
 <div align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/oscuro/plaque_lc_cn.png"><img src="assets/claro/plaque_lc_cn.png" alt="La constante C_N, sa limite, sa croissance stricte, la vitesse limite et le rapport de Mandelstam–Tamm" width="860"></picture></div>
 
-*Pas :* limite et monotonie (#1734, #1735) → Mandelstam–Tamm et Cramér–Rao (#1711, #1739) → vitesse limite (#1724) → bande de vitesse et sa largeur (#1745, #1746).  
-*Lean :* `uncertaintyRatio_lt_uncertaintyRatio`, `uncertaintyRatio_lt_sqrt_pi_sq_div_three_sub_two`, `tendsto_uncertaintyRatio`, `abs_expectation_current_le`, `mandelstamTammRatio_maxCurrentState`.
+*Pas :* limite et monotonie (#1734, #1735) → Mandelstam–Tamm et Cramér–Rao (#1711, #1739) → vitesse limite (#1724) → bande de vitesse, largeur et seuil à quatre sites (#1745, #1746, #2122).  
+*Lean :* `uncertaintyRatio_lt_uncertaintyRatio`, `uncertaintyRatio_lt_sqrt_pi_sq_div_three_sub_two`, `tendsto_uncertaintyRatio`, `abs_expectation_current_le`, `mandelstamTammRatio_maxCurrentState`, `three_div_two_mul_abs_le_threshold`.
 
 ### Chemin 5 : Le cube ouvert NRS³
 
@@ -119,7 +121,7 @@ La couche algébrique sur laquelle reposent les chemins (`PhyslibAlpha/Probabili
 | sl(2, ℂ) | la double couverture du groupe de Lorentz restreint |
 | Observables du cube | une paire par axe ; des axes différents commutent |
 
-**En attente de revue** : [PR 2102](https://github.com/leanprover-community/physlib/pull/2102) (le hamiltonien du cube ouvert est l’adjacence du graphe chemin sur chaque axe) et [PR 2122](https://github.com/leanprover-community/physlib/pull/2122) (le seuil de la chaîne à quatre sites est au moins 3/2 |a t|).
+**En attente de revue** : [PR 2127](https://github.com/leanprover-community/physlib/pull/2127) (citations Al-Hashimi–Wiese et Sehrawat dans la bande de vitesse), [PR 2133](https://github.com/leanprover-community/physlib/pull/2133) (relation de dispersion et masse effective à k = 0), [PR 2134](https://github.com/leanprover-community/physlib/pull/2134) (`C² = (99 − 42√5)/5` à quatre sites) et [PR 2135](https://github.com/leanprover-community/physlib/pull/2135) (vecteurs propres sinus de la chaîne ouverte).
 
 ---
 
@@ -127,12 +129,39 @@ La couche algébrique sur laquelle reposent les chemins (`PhyslibAlpha/Probabili
 
 Chaque dépôt compile seul, en Lean 4 sur Mathlib, certains sur Physlib, avec les seuls axiomes standards. La liste, une ligne par dépôt, est dans [compiled/](compiled/README.md).
 
-Les dépôts du profil ont leur propre licence ; les contributions à Physlib suivent la licence Apache 2.0 de Physlib.
+## 🏛️ La mosaïque
+
+| Dépôt | Objet |
+|:---|:---|
+| [`00 · bacqm-substrate`](https://github.com/naype888-cloud/bacqm-systems) | Substrat matériel & moteur du noyau Linux : modules de mémoire dynamiques en temps réel |
+| [`01 · nava-robertson-schrodinger`](https://github.com/naype888-cloud/nava-robertson-schrodinger) | Le canon : l'incertitude élémentaire dimensionnelle sur le cube ouvert, ℂᵈ ⊗ ℂᵈ ⊗ ℂᵈ |
+| [`02 · Proper-Time-General-Relativity`](https://github.com/naype888-cloud/Proper-Time-General-Relativity) | Le temps compte les pas : τ = 1/(φ|t|) à quatre sites ; masse effective, équivalence, gravitation |
+| [`03 · nrs3-mandelstam-tamm-cramer-rao`](https://github.com/naype888-cloud/nrs3-mandelstam-tamm-cramer-rao) | Mandelstam–Tamm et Cramér–Rao : aucun état n'est orthogonal à lui-même avant πħ/(2ΔE) |
+| [`04 · YM-By-Perelmans-surgery-method`](https://github.com/naype888-cloud/YM-By-Perelmans-surgery-method) | Yang–Mills sur réseau : loi d'aire uniforme, matrice de transfert, défaut de fibre (0 sorry) |
+| [`05 · nrs3-tightbinding`](https://github.com/naype888-cloud/nrs3-tightbinding) | La chaîne de Physlib, le cube ouvert et la table périodique (H–Og), un cube 3D par élément |
+| [`06 · nrs3-cristales`](https://github.com/naype888-cloud/nrs3-cristales) | Cristaux : la symétrie donne la forme de Σ et Ω, le spectre donne la taille |
+| [`07 · nrs3-completude`](https://github.com/naype888-cloud/nrs3-completude) | Complétude constructive et limites spectrales par Robertson–Fiedler–Niven–Szegő |
+| [`08 · nrs3-golab`](https://github.com/naype888-cloud/nrs3-golab) | Gołąb, les deux extrêmes : π = 3 (hexagone), 4 (carré) ; produit scalaire → π exact ; stabilité en d = 3 |
+| [`09 · nrs3-de-sitter`](https://github.com/naype888-cloud/nrs3-de-sitter) | Cosmologie de Sitter : rayon d'horizon L_dS, constante cosmologique positive et courbure |
+| [`10 · nrs3-bekenstein`](https://github.com/naype888-cloud/nrs3-bekenstein) | Thermodynamique des trous noirs : frontière à bits, entropie de Bekenstein–Hawking saturée |
+| [`11 · nrs3-landauer-carnot`](https://github.com/naype888-cloud/nrs3-landauer-carnot) | Limite de Landauer et cycle de Carnot : coût d'effacement d'un bit et dissipation minimale |
+| [`12 · nrs3-penrose`](https://github.com/naype888-cloud/nrs3-penrose) | Effondrement gravitationnel de Diósi–Penrose : temps de décohérence par auto-énergie |
+| [`13 · nrs3-rovelli-lqg`](https://github.com/naype888-cloud/nrs3-rovelli-lqg) | Gravité quantique à boucles : spectre d'aire discrète, opérateur de surface et saturation de spin |
+| [`14 · nrs3-uncertainty-cone`](https://github.com/naype888-cloud/nrs3-uncertainty-cone) | Cône de lumière futur et cercle de Minkowski : structure causale sous revêtement SL(2, ℂ) |
+| [**15 · lean4-commits**](https://github.com/naype888-cloud/lean4-commits) | 53 PRs fusionnées dans leanprover-community/physlib : catalogue de preuves formelles, 0 sorry, ZFC *(ce dépôt)* |
+
+---
+
+## 📜 Licence
+
+[NRS Noncommercial License 1.0.0](LICENSE) pour ce dépôt ; les contributions intégrées à Physlib suivent la licence Apache 2.0 de Physlib.
 
 <div align="center">
 
 ### 📐 *« Un lemme qui relie Mathlib pur au cadre de Physlib : huit chemins, une équation clé chacun. »*
 
 **Eduardo Nava Hernández** · [naype888-cloud](https://github.com/naype888-cloud)
+
+</div>
 
 </div>

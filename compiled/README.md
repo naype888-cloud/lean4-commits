@@ -16,6 +16,7 @@ Chaque dépôt compile seul, en Lean 4 sur Mathlib, certains sur Physlib, avec l
 
 | Dépôt | En une ligne |
 |---|---|
+| [`nrs3-golab`](https://github.com/naype888-cloud/nrs3-golab) | Gołąb : π = 3 (hexagone), 4 (carré) ; produit scalaire → π exact ; stabilité en d = 3 |
 | [`nrs3-cristales`](https://github.com/naype888-cloud/nrs3-cristales) | La symétrie donne la forme de Σ et Ω, le spectre donne la taille ; fcc et bcc comme mots de pas d’axe |
 | [`nrs3-mandelstam-tamm-cramer-rao`](https://github.com/naype888-cloud/nrs3-mandelstam-tamm-cramer-rao) | Aucun état n’est orthogonal à lui-même avant πħ/(2ΔE) ; Cramér–Rao |
 | [`nrs3-landauer-carnot`](https://github.com/naype888-cloud/nrs3-landauer-carnot) | Effacer un bit coûte k_B T ln 2 ; aucun moteur ne dépasse 1 − T_c/T_h |

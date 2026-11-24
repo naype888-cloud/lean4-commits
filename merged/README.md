@@ -1,6 +1,6 @@
 # Fusionnées dans Physlib — la liste complète
 
-Les 52 pull requests d’Eduardo Nava Hernández fusionnées dans [Physlib](https://github.com/leanprover-community/physlib), groupées par chemin. Les pas qui mènent au théorème clé de chaque chemin, avec son équation, sont dans la [page principale](../README.md).
+Les 53 pull requests d’Eduardo Nava Hernández fusionnées dans [Physlib](https://github.com/leanprover-community/physlib), groupées par chemin. Les pas qui mènent au théorème clé de chaque chemin, avec son équation, sont dans la [page principale](../README.md).
 
 [▶ Pull requests fusionnées](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Amerged+author%3Anaype888-cloud) · [ouvertes](https://github.com/leanprover-community/physlib/pulls?q=is%3Apr+is%3Aopen+author%3Anaype888-cloud) · [fork de travail](https://github.com/naype888-cloud/physlib)
 
@@ -53,6 +53,7 @@ Les 52 pull requests d’Eduardo Nava Hernández fusionnées dans [Physlib](http
 | [#1739](https://github.com/leanprover-community/physlib/pull/1739) | 2026-10-07 | feat(PhyslibAlpha): Mandelstam–Tamm and Cramér–Rao in the maximal current state |
 | [#1745](https://github.com/leanprover-community/physlib/pull/1745) | 2026-10-08 | feat(PhyslibAlpha): velocity band of forced uncertainty in the open tight binding chain |
 | [#1746](https://github.com/leanprover-community/physlib/pull/1746) | 2026-10-13 | Feat physlibalpha tight binding velocity band width v2 |
+| [#2122](https://github.com/leanprover-community/physlib/pull/2122) | 2026-11-21 | feat(PhyslibAlpha): the threshold of the four site chain is at least 3/2 |a t| |
 
 ## 5 · Le cube ouvert NRS³
 
@@ -98,8 +99,10 @@ Les 52 pull requests d’Eduardo Nava Hernández fusionnées dans [Physlib](http
 
 ## En attente de revue
 
-- [PR 2102](https://github.com/leanprover-community/physlib/pull/2102) : le hamiltonien du cube ouvert est l’adjacence du graphe chemin sur chaque axe.
-- [PR 2122](https://github.com/leanprover-community/physlib/pull/2122) : le seuil de la chaîne à quatre sites est au moins 3/2 |a t|.
+- [PR 2127](https://github.com/leanprover-community/physlib/pull/2127) : citations Al-Hashimi–Wiese et Sehrawat dans la bande de vitesse.
+- [PR 2133](https://github.com/leanprover-community/physlib/pull/2133) : relation de dispersion et masse effective de la chaîne à k = 0.
+- [PR 2134](https://github.com/leanprover-community/physlib/pull/2134) : rapport d’incertitude à quatre sites `(99 − 42√5)/5`.
+- [PR 2135](https://github.com/leanprover-community/physlib/pull/2135) : vecteurs propres sinus de la chaîne ouverte depuis le graphe chemin.
 
 Travail partagé : le cadre algébrique `ProbabilisticTheory` est celui de Tom Ole Diem ; le fichier `PhyslibAlpha/ProbabilisticTheory/CStarAlgebra/Uncertainty.lean` porte les deux noms.
 
