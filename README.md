@@ -2,7 +2,8 @@
 
 <div align="center">
 
-# 1 · Lean 4 · Les commits
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/oscuro/titre_lean4_commits.png"><img src="assets/claro/titre_lean4_commits.png" alt="1 · Lean 4 · Les commits" width="860"></picture>
+**"1 · Lean 4 · Les commits"**
 ### Tout ce qu’Eduardo Nava Hernández a écrit en Lean 4 : huit chemins fusionnés dans Physlib et les dépôts compilés du profil
 
 **Eduardo Nava Hernández**  
